@@ -191,9 +191,9 @@ if page == "🏠 Home":
     - Generate business insights and recommendations.
     """)
 
-st.subheader("👨‍💻 About Developer")
+    st.subheader("👨‍💻 About Developer")
 
-st.markdown("""
+    st.markdown("""
 ### Developer Information
 
 🎓 **B.Tech CSE (Data Science)**
