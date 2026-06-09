@@ -191,21 +191,25 @@ if page == "🏠 Home":
     - Generate business insights and recommendations.
     """)
 
-    st.subheader("👨‍💻 About Developer")
+st.subheader("👨‍💻 About Developer")
 
-    st.markdown("""
-    **Name:** Jangiti Sravan Kumar
+st.markdown("""
+### Developer Information
 
-    **Role:** Aspiring Data Analyst
+🎓 **B.Tech CSE (Data Science)**
 
-    **Tools Used:**
-    - Python
-    - Pandas
-    - Plotly
-    - Streamlit
+📧 **Email:** jsravankumar06@gmail.com
 
-    **Project:** UPI Transaction Analytics Dashboard
-    """)
+💼 **LinkedIn:**https://www.linkedin.com/in/sravan-kumar-jangiti-ab53472a2?
+
+💻 **GitHub:** https://github.com/your-username
+
+📊 **Aspiring Data Analyst**
+
+### Project
+
+**UPI Transaction Analytics Dashboard**
+""")
 elif page == "📄 Dataset Overview":
 
     st.header("📄 Dataset Overview")
