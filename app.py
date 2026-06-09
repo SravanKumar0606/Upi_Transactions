@@ -134,7 +134,6 @@ if page == "🏠 Home":
     st.subheader("👨‍💻 About Developer")
 
     st.markdown("""
-### Developer Information
 
 🎓 **B.Tech CSE (Data Science)**
 
