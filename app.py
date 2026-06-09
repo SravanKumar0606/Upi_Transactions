@@ -41,28 +41,6 @@ add_bg_from_local("upi5.jpg")
 
 df = pd.read_csv("upi_transactions.csv")
 
-# -----------------------------------
-# TITLE
-# -----------------------------------
-
-# st.title("💳 UPI Transaction Analytics Dashboard")
-# st.markdown("### Customer Behavior, Revenue & Fraud Analysis")
-
-
-# -----------------------------------
-# SIDEBAR NAVIGATION
-# -----------------------------------
-
-# page = st.sidebar.radio(
-#     "🏠 Navigation",
-#     [
-#         "📊 Overview",
-#         "📈 Business Analysis",
-#         "🛡️ Fraud & Risk",
-#         "📍 Geographic Analysis",
-#         "📱 Device Analysis"
-#     ]
-# )
 
 page = st.sidebar.radio(
     "🏠 Navigation",
@@ -131,45 +109,7 @@ if page == "🏠 Home":
         "### Understanding Customer Behavior, Transaction Patterns and Fraud Risk"
     )
 
-    # st.markdown("---")
-
-    # KPI Cards
-
-    # total_transactions = len(df)
-
-    # total_revenue = df["amount (INR)"].sum()
-
-    # avg_transaction = df["amount (INR)"].mean()
-
-    # fraud_rate = (
-    #     df["fraud_flag"]
-    #     .value_counts(normalize=True)
-    #     .get(1, 0) * 100
-    # )
-
-    # col1, col2, col3, col4 = st.columns(4)
-
-    # col1.metric(
-    #     "Total Transactions",
-    #     f"{total_transactions:,}"
-    # )
-
-    # col2.metric(
-    #     "Revenue",
-    #     f"₹{total_revenue/1e6:.1f}M"
-    # )
-
-    # col3.metric(
-    #     "Avg Transaction",
-    #     f"₹{avg_transaction:.0f}"
-    # )
-
-    # col4.metric(
-    #     "Fraud Rate",
-    #     f"{fraud_rate:.3f}%"
-    # )
-
-    # st.markdown("---")
+  
 
     st.subheader("📌 Problem Statement")
 
@@ -200,9 +140,9 @@ if page == "🏠 Home":
 
 📧 **Email:** jsravankumar06@gmail.com
 
-💼 **LinkedIn:**https://www.linkedin.com/in/sravan-kumar-jangiti-ab53472a2?
+💼 **LinkedIn:** https://www.linkedin.com/in/sravan-kumar-jangiti-ab53472a2
 
-💻 **GitHub:** https://github.com/your-username
+💻 **GitHub:** https://github.com/dashboard
 
 📊 **Aspiring Data Analyst**
 
